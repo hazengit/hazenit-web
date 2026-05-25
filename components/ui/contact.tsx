@@ -38,8 +38,8 @@ export function Contact() {
 
             <div className="space-y-6 mb-10">
               {[
-                { icon: Mail, label: 'Email', value: 'hello@hazenit.com', href: 'mailto:hello@hazenit.com' },
-                { icon: Phone, label: 'Phone', value: '+65 1234 5678', href: 'tel:+6512345678' },
+                { icon: Mail, label: 'Email', value: 'hazetay@hazenit.com', href: 'mailto:hazetay@hazenit.com' },
+                { icon: Phone, label: 'Phone', value: '+65 9060 9803', href: 'tel:+6590609803' },
                 { icon: MapPin, label: 'Location', value: 'Singapore', href: null },
               ].map((item, index) => (
                 <div key={index} className="flex items-start gap-4">
