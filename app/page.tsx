@@ -3,7 +3,6 @@ import { Hero } from '@/components/ui/hero'
 import { Services } from '@/components/ui/services'
 import { About } from '@/components/ui/about'
 import { Testimonials } from '@/components/ui/testimonials'
-import { Blog } from '@/components/ui/blog'
 import { Contact } from '@/components/ui/contact'
 import { Footer } from '@/components/ui/footer'
 import { ChatbotPlaceholder } from '@/components/ui/chatbot-placeholder'
@@ -17,7 +16,6 @@ export default function Home() {
         <Services />
         <About />
         <Testimonials />
-        <Blog />
         <Contact />
       </main>
       <Footer />
