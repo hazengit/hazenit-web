@@ -53,15 +53,6 @@ export function Hero() {
             <div className="relative">
               {/* Main card */}
               <div className="p-8 bg-card border border-border rounded-2xl glow">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="w-10 h-10 bg-primary/10 border border-primary/30 rounded-xl flex items-center justify-center">
-                    <svg className="w-5 h-5 text-primary" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M0 0h11.5v11.5H0V0zm12.5 0H24v11.5H12.5V0zM0 12.5h11.5V24H0V12.5zm12.5 0H24V24H12.5V12.5z"/>
-                    </svg>
-                  </div>
-                  <span className="font-medium text-foreground">Microsoft Partner</span>
-                </div>
-                
                 <div className="grid grid-cols-2 gap-6">
                   <div className="p-4 bg-secondary/50 rounded-xl">
                     <div className="text-3xl font-serif font-medium text-primary mb-1">30+</div>
