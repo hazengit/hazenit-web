@@ -3,20 +3,17 @@ import { Star, Quote } from 'lucide-react'
 const testimonials = [
   {
     quote:
-      'The lecturers, mainly xxx, and Tay Mei Lan, went above and beyond to make sure the knowledge is transferred to us. I look forward to apply what I’ve learnt on my daily work.',
+      '... Mei Lan, went above and beyond to make sure the knowledge is transferred to us. I look forward to apply what I’ve learnt on my daily work.',
     run: 'Jun-2026 run',
-    role: 'Business Workflow Automation participant',
   },
   {
     quote:
       'The trainer Mei Lan is very professional and has shared many tips on power Automate. Good job and thank her very much!',
     run: 'Feb-2026 run',
-    role: 'Business Workflow Automation participant',
   },
   {
     quote: 'Wonder coaching by Tay Mei lan !',
     run: 'Jul-2026 run',
-    role: 'Business Workflow Automation participant',
   },
 ]
 
@@ -65,7 +62,6 @@ export function Testimonials() {
                   </div>
                   <div>
                     <div className="font-medium text-foreground">{testimonial.run}</div>
-                    <div className="text-sm text-muted-foreground">{testimonial.role}</div>
                   </div>
                 </div>
               </div>

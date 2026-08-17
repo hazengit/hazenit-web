@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { Linkedin, Mail, ArrowUpRight } from 'lucide-react'
 
@@ -23,9 +24,13 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 bg-primary/10 border border-primary/30 rounded-xl flex items-center justify-center">
-                <span className="text-primary font-serif font-bold text-lg">H</span>
-              </div>
+              <Image
+                src="/hazenIT.png"
+                alt="Hazen IT"
+                width={48}
+                height={48}
+                className="h-12 w-12 rounded-xl bg-white object-contain p-0.5"
+              />
               <span className="text-xl font-medium text-foreground tracking-tight">Hazen IT</span>
             </Link>
             <p className="text-muted-foreground leading-relaxed max-w-md mb-6">

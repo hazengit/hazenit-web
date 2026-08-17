@@ -17,6 +17,10 @@ export const metadata: Metadata = {
   title: 'Hazen IT | AI & Automation Consultancy for SMEs in Singapore',
   description: 'Hazen IT helps Singapore SMEs adopt AI, automation, and digital transformation. Expert consulting in Microsoft Power Automate, workflow automation, and IT training.',
   keywords: ['AI consultancy', 'automation', 'SME Singapore', 'Microsoft Power Automate', 'digital transformation', 'IT training'],
+  icons: {
+    icon: '/hazenIT.png',
+    apple: '/hazenIT.png',
+  },
 }
 
 export const viewport = {

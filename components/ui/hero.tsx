@@ -64,7 +64,7 @@ export function Hero() {
                 
                 <div className="grid grid-cols-2 gap-6">
                   <div className="p-4 bg-secondary/50 rounded-xl">
-                    <div className="text-3xl font-serif font-medium text-primary mb-1">50+</div>
+                    <div className="text-3xl font-serif font-medium text-primary mb-1">30+</div>
                     <div className="text-sm text-muted-foreground">Projects Delivered</div>
                   </div>
                   <div className="p-4 bg-secondary/50 rounded-xl">
@@ -101,7 +101,7 @@ export function Hero() {
         {/* Mobile stats */}
         <div className="lg:hidden mt-16 grid grid-cols-2 gap-4">
           <div className="p-4 bg-card border border-border rounded-xl text-center">
-            <div className="text-2xl font-serif font-medium text-primary mb-1">50+</div>
+            <div className="text-2xl font-serif font-medium text-primary mb-1">30+</div>
             <div className="text-sm text-muted-foreground">Projects</div>
           </div>
           <div className="p-4 bg-card border border-border rounded-xl text-center">

@@ -48,7 +48,7 @@ export function About() {
           <div className="grid grid-cols-2 gap-4">
             {[
               { value: '5+', label: 'Years Experience' },
-              { value: '50+', label: 'Projects Completed' },
+              { value: '30+', label: 'Projects Completed' },
               { value: '30+', label: 'Happy Clients' },
               { value: '100%', label: 'Satisfaction Rate' },
             ].map((stat, index) => (
