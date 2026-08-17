@@ -3,7 +3,6 @@ import { CheckCircle } from 'lucide-react'
 const values = [
   'Practical, results-driven approach',
   'Deep understanding of SME challenges',
-  'Microsoft-certified expertise',
   'Ongoing support and training',
 ]
 

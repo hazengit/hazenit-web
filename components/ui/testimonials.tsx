@@ -2,22 +2,21 @@ import { Star, Quote } from 'lucide-react'
 
 const testimonials = [
   {
-    quote: "Hazen IT transformed our invoice processing completely. What used to take our team hours now happens automatically. The ROI was visible within the first month.",
-    author: 'Sarah Tan',
-    role: 'Operations Director',
-    company: 'LogiFlow Pte Ltd',
+    quote:
+      'The lecturers, mainly xxx, and Tay Mei Lan, went above and beyond to make sure the knowledge is transferred to us. I look forward to apply what I’ve learnt on my daily work.',
+    run: 'Jun-2026 run',
+    role: 'Business Workflow Automation participant',
   },
   {
-    quote: "Their practical approach to AI adoption was exactly what we needed. No buzzwords, just real solutions that our team could actually use and benefit from.",
-    author: 'Michael Chen',
-    role: 'Managing Director',
-    company: 'Chen & Associates',
+    quote:
+      'The trainer Mei Lan is very professional and has shared many tips on power Automate. Good job and thank her very much!',
+    run: 'Feb-2026 run',
+    role: 'Business Workflow Automation participant',
   },
   {
-    quote: "The training they provided empowered our staff to build their own automations. That knowledge transfer has been invaluable for our continued growth.",
-    author: 'Priya Sharma',
-    role: 'HR Manager',
-    company: 'TechStart Singapore',
+    quote: 'Wonder coaching by Tay Mei lan !',
+    run: 'Jul-2026 run',
+    role: 'Business Workflow Automation participant',
   },
 ]
 
@@ -34,7 +33,7 @@ export function Testimonials() {
             What Our Clients Say
           </h2>
           <p className="text-lg text-muted-foreground">
-            Don&apos;t just take our word for it—hear from businesses we&apos;ve helped transform.
+            Don&apos;t just take our word for it—hear from clients we worked with.
           </p>
         </div>
 
@@ -61,14 +60,12 @@ export function Testimonials() {
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center">
                     <span className="text-primary font-serif font-medium">
-                      {testimonial.author.charAt(0)}
+                      {testimonial.run.charAt(0)}
                     </span>
                   </div>
                   <div>
-                    <div className="font-medium text-foreground">{testimonial.author}</div>
-                    <div className="text-sm text-muted-foreground">
-                      {testimonial.role}, {testimonial.company}
-                    </div>
+                    <div className="font-medium text-foreground">{testimonial.run}</div>
+                    <div className="text-sm text-muted-foreground">{testimonial.role}</div>
                   </div>
                 </div>
               </div>
