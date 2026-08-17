@@ -4,16 +4,16 @@ const testimonials = [
   {
     quote:
       '... Mei Lan, went above and beyond to make sure the knowledge is transferred to us. I look forward to apply what I’ve learnt on my daily work.',
-    run: 'Jun-2026 run',
+    run: 'Jun-2026',
   },
   {
     quote:
       'The trainer Mei Lan is very professional and has shared many tips on power Automate. Good job and thank her very much!',
-    run: 'Feb-2026 run',
+    run: 'Feb-2026',
   },
   {
     quote: 'Wonder coaching by Tay Mei lan !',
-    run: 'Jul-2026 run',
+    run: 'Jul-2026',
   },
 ]
 
